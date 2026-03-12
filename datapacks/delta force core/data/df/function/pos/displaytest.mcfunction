@@ -1,0 +1,2 @@
+data modify storage df:display Items set value ['{"text":"A1","color":"green"}','{"text":"\\u0108\\u0102\\u0201","font":"df:space","color":"green"}','{"text":"    B1","color":"white"}','{"text":"\\u0108\\u0102\\u0201","font":"df:space","color":"white"}','{"text":"    C1","color":"red"}','{"text":"\\u0108\\u0102\\u0201","font":"df:space","color":"red"}',]
+bossbar set df:display name {"nbt":"Items[]","source":"storage","storage":"df:display","interpret":true,"separator":""}

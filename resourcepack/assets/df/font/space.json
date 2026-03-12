@@ -1,0 +1,22 @@
+{
+    "providers":[
+        {
+            "type":"space",
+            "advances":{
+                "\u0101":-1,
+                "\u0102":-2,
+                "\u0104":-4,
+                "\u0108":-8,
+                "\u0116":-16,
+                "\u0132":-32
+            }
+        },
+        {
+            "type":"bitmap",
+            "file":"df:font/block.png",
+            "height":12,
+            "ascent":9,
+            "chars":["\u0201"]
+        }
+    ]
+}
