@@ -4,8 +4,8 @@
 data modify storage df:display GTI_Items set value []
 data modify storage df:display HAAVK_Items set value []
 
-execute as @e[tag=pos] run data modify storage df:display GTI_Items append from entity @s data.display.gti.status
-execute as @e[tag=pos] run data modify storage df:display HAAVK_Items append from entity @s data.display.haavk.status
+execute as @e[tag=pos] run data modify storage df:display GTI_Items append from entity @s data.display.gti.status[]
+execute as @e[tag=pos] run data modify storage df:display HAAVK_Items append from entity @s data.display.haavk.status[]
 
 bossbar set df:display_gti name {"nbt":"GTI_Items[]","source":"storage","storage":"df:display","interpret":true,"separator":""}
 bossbar set df:display_haavk name {"nbt":"HAAVK_Items[]","source":"storage","storage":"df:display","interpret":true,"separator":""}

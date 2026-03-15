@@ -17,6 +17,12 @@
             "height":12,
             "ascent":9,
             "chars":["\u0201"]
+        },
+        {
+            "type":"space",
+            "advances":{
+                " ":7
+            }
         }
     ]
 }
