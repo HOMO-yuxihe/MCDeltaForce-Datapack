@@ -1,14 +1,5 @@
 #更新显示
-$bossbar set df:$(name)_gti players @a[tag=GTI_player]
-$bossbar set df:$(name)_haavk players @a[tag=HAAVK_player]
-
-scoreboard players set A1_disp dummy 0
-execute if score @s pos matches ..-1 run function df:pos/tick/display/haavk with entity @s data
-execute if score @s pos matches 1.. run function df:pos/tick/display/gti with entity @s data
-execute if score @s pos matches 0 run function df:pos/tick/display/neutral with entity @s data
-
-$execute store result bossbar df:$(name)_gti value run scoreboard players get A1_disp dummy
-$execute store result bossbar df:$(name)_haavk value run scoreboard players get A1_disp dummy
+function df:pos/tick/display with entity @s data
 
 #空点
 execute unless entity @a[dx=10,dy=10,dz=10] run return run function df:pos/tick/idle
