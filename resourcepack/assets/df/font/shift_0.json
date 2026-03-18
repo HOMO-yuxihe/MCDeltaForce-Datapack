@@ -1,0 +1,10 @@
+{
+    "providers":[
+        {
+            "type":"ttf",
+            "file":"df:p.ttf",
+            "oversample":4,
+            "size":8
+        }
+    ]
+}

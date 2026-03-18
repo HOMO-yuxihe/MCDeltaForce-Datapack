@@ -1,0 +1,11 @@
+{
+    "providers":[
+        {
+            "type":"ttf",
+            "file":"df:p.ttf",
+            "shift":[0,-15],
+            "oversample":4,
+            "size":8
+        }
+    ]
+}
