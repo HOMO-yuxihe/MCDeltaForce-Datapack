@@ -1,5 +1,4 @@
-tag @s remove GTI
-tag @s remove HAAVK
+scoreboard players set @s dummy 0
 
 $bossbar set df:$(name)_gti visible false
 $bossbar set df:$(name)_haavk visible false
