@@ -1,4 +1,4 @@
-scoreboard players set @s dummy 0
+$scoreboard players set $(name) dummy 0
 
 $bossbar set df:$(name)_gti visible false
 $bossbar set df:$(name)_haavk visible false

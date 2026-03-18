@@ -1,6 +1,6 @@
-execute if score @s dummy matches 1 run scoreboard players add @s pos 2
-execute if score @s dummy matches -1 run scoreboard players remove @s pos 2
-execute if score @s dummy matches 0 run function df:pos/tick/idle/neutral
+$execute if score $(name) dummy matches 1 run scoreboard players add $(name) pos 2
+$execute if score $(name) dummy matches -1 run scoreboard players remove $(name) pos 2
+$execute if score $(name) dummy matches 0 run function df:pos/tick/idle/neutral with entity @s data
 
-execute if score @s pos matches 201.. run scoreboard players set @s pos 200
-execute if score @s pos matches ..-201 run scoreboard players set @s pos -200
+$execute if score $(name) pos matches 201.. run scoreboard players set $(name) pos 200
+$execute if score $(name) pos matches ..-201 run scoreboard players set $(name) pos -200

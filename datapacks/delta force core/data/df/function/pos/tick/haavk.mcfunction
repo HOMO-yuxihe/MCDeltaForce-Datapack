@@ -1,5 +1,5 @@
-scoreboard players set @s pos -200
-scoreboard players set @s dummy -1
+$scoreboard players set $(name) pos -200
+$scoreboard players set $(name) dummy -1
 
 $bossbar set df:$(name)_gti visible false
 $bossbar set df:$(name)_haavk visible false
