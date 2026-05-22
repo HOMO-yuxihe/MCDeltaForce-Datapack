@@ -1,0 +1,14 @@
+{
+    "entity.kill": {
+        "subtitle":"玩家：击杀目标",
+        "sounds": [
+            "dfk:kill"
+        ]
+    },
+    "entity.hurt": {
+        "subtitle":"玩家：造成伤害",
+        "sounds": [
+            "dfk:hurt"
+        ]
+    }
+}
