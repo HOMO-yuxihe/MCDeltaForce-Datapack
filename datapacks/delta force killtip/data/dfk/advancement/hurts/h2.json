@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "iron_sword"
+        },
+        "title": "",
+        "description": "造成3伤害",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "hurt": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "damage": {
+                "taken": {
+                    "min": 2.5,
+                    "max": 3.499999999
+                }
+            }
+        }
+        }
+    },
+    "rewards":{
+        "function": "dfk:hurts/h2"
+    }
+}

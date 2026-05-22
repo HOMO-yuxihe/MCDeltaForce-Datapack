@@ -1,0 +1,20 @@
+{
+	"display": {
+		"title": "",
+		"description": "击杀实体",
+		"icon": {"id": "minecraft:iron_sword"},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"killed_any_entity": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {}
+		}
+	},
+	"rewards": {
+		"function": "dfk:kill"
+	}
+}
