@@ -5,4 +5,4 @@ execute if score @s score_disp > @s score run scoreboard players operation @s sc
 execute if score @s score matches ..0 run return 0
 title @s times 0 100 15
 execute if score @s head_countdown matches ..0 run title @s title ""
-title @s subtitle {"score":{"name":"@s", "objective":"score_disp"}}
+title @s subtitle {"score":{"name":"@s", "objective":"score_disp"},"font":"dfk:killicon"}
