@@ -5,6 +5,7 @@
         "path": "./commands.json",
         "replace": false
       }
-    }
+    },
+    "gameVersion": "1.20.1"
   }
 }
