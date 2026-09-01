@@ -1,2 +1,2 @@
-
+item replace entity @s hotbar.7 with minecraft:arrow{display:{Name:'{"text":"放弃战斗","italic":false}'}}
 item replace entity @s hotbar.8 with minecraft:skeleton_skull{display:{Name:'{"text":"重新部署","italic":false}'}}

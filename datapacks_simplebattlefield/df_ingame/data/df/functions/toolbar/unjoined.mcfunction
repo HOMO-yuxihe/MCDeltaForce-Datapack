@@ -1,2 +1,2 @@
-item replace entity @s hotbar.0 with emerald{display:{Name:'{"text":"加入GTI阵营","italic":false}'}}
-item replace entity @s hotbar.1 with redstone{display:{Name:'{"text":"加入HAAVK阵营","italic":false}'}}
+item replace entity @s hotbar.0 with emerald{display:{Name:'[{"text":"加入","italic":false},{"text":"G.T.I.","color":"green","italic":false},{"text":"阵营","italic":false,"color":"white"}]'}}
+item replace entity @s hotbar.1 with redstone{display:{Name:'[{"text":"加入","italic":false},{"text":"HAAVK","color":"red","italic":false},{"text":"阵营","italic":false,"color":"white"}]'}}
