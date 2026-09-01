@@ -1,0 +1,105 @@
+/// ============================
+/// 公共基础结构
+/// ============================
+
+/// 空结构（用于占位，便于后续扩展）
+struct GunData {
+    Ammo?: int
+}
+struct Attachments {}
+struct Perks {}
+
+use ::java::util::slot::SlottedItem
+use ::java::world::entity::EntityBase
+
+/// 通用武器槽（包含 tag）
+struct GunSlot {
+    tag: struct {
+        GunData?: GunData,
+        Attachments?: Attachments,
+        Perks?: Perks,
+    },
+}
+
+/// 公共载具 NBT（所有字段，除 WeaponState 外）
+struct CommonVehicleNbt {
+    ...EntityBase,
+    TowingUUID?: string,
+    TowingUUIDs?: [string],
+    TowedByUUID?: string,
+
+    LeftWheelHealth?: float,
+    LeftWheelDamaged?: byte,
+    RightWheelHealth?: float,
+    RightWheelDamaged?: byte,
+    MainEngineHealth?: float,
+    MainEngineDamaged?: byte,
+    SubEngineHealth?: float,
+    SubEngineDamaged?: byte,
+    TurretHealth?: float,
+    TurretDamaged?: byte,
+    TurretBurned?: byte,
+    TurretBurnTimer?: int,
+
+    HoverMode?: byte,
+    LoiterActive?: byte,
+    LoiterR?: float,
+    LoiterX?: float,
+    LoiterY?: float,
+    LoiterZ?: float,
+    ServerYaw?: float,
+    ServerPitch?: float,
+    PropellerRot?: float,
+    GearRot?: float,
+    GearUp?: byte,
+
+    ChargeProgress?: float,
+    LastAttacker?: string,
+    SelectedWeapon?: [int],
+    CanUpdate?: byte,
+    TurretYRotLock?: float,
+    DecoyReloadCoolDown?: int,
+    GunXRot?: float,
+    LastDriver?: string,
+    IsWreck?: byte,
+    DogTagIcon?: [struct{}],
+    Locked?: byte,
+    Energy?: int,
+    TurretYRot?: float,
+    Health?: float,
+    GunYRot?: float,
+    DecoyCount?: int,
+    SympatheticDetonated?: byte,
+    Power?: float,
+    TurretXRot?: float,
+
+    /// 公共 Inventory 结构
+    Inventory?: struct {
+        Size?: int,
+        Items?: [SlottedItem<byte>],
+    },
+}
+/// AH-6 完整 NBT（包含公共部分和武器状态）
+struct Ah6Nbt {
+    ...CommonVehicleNbt,
+    WeaponState?: struct {
+        Cannon?: GunSlot,
+        Rocket?: GunSlot,
+    },
+}
+/// ZTZ-99A 完整 NBT
+struct Ztz99aNbt {
+    ...CommonVehicleNbt,
+    WeaponState?: struct {
+        Cannon?: GunSlot,
+        MachineGun?: GunSlot,
+        PassengerMachineGun?: GunSlot,
+    },
+}
+
+/// ============================
+/// 绑定到实体
+/// ============================
+
+dispatch minecraft:entity[superbwarfare:ah_6] to Ah6Nbt
+dispatch minecraft:entity[superbwarfare:ztz_99a] to Ztz99aNbt

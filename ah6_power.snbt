@@ -1,0 +1,82 @@
+{
+    TowingUUID: "",
+    LeftWheelHealth: 50f,
+    ChargeProgress: 0f,
+    Invulnerable: 0b,
+    MainEngineHealth: 50f,
+    RightWheelDamaged: 0b,
+    LastAttacker: "",
+    SelectedWeapon: [I; 0, 0, 0, 0],
+    FallDistance: 0f,
+    CanUpdate: 1b,
+    TurretYRotLock: 0f,
+    GearRot: 0f,
+    HoverMode: 0b,
+    ServerYaw: 0f,
+    TowingUUIDs: [],
+    TowedByUUID: "",
+    DecoyReloadCoolDown: 0,
+    Air: 300s,
+    SubEngineDamaged: 0b,
+    TurretBurned: 0b,
+    RightWheelHealth: 50f,
+    LoiterR: 400f,
+    TurretDamaged: 0b,
+    LoiterX: 0f,
+    Inventory: {
+        Size: 27,
+        Items: []
+    },
+    LoiterZ: 0f,
+    LoiterY: 318f,
+    WeaponState: {
+        Cannon: {
+            tag: {
+                Perks: {  },
+                GunData: {  },
+                Attachments: {  }
+            }
+        },
+        Rocket: {
+            tag: {
+                Perks: {  },
+                GunData: {  },
+                Attachments: {  }
+            }
+        }
+    },
+    PropellerRot: 0f,
+    ServerPitch: -0.12100996f,
+    GunXRot: 0f,
+    LastDriver: "222f96cf-f7f6-327a-96d7-4fcd5bbae27f",
+    IsWreck: 0b,
+    PortalCooldown: 0,
+    TurretHealth: 50f,
+    GearUp: 0b,
+    DogTagIcon: [],
+    MainEngineDamaged: 0b,
+    Locked: 0b,
+    Energy: 5000000,
+    LoiterActive: 0b,
+    TurretYRot: 0f,
+    SubEngineHealth: 50f,
+    Motion: [
+        0.0,
+        0.0,
+        0.0
+    ],
+    Health: 250f,
+    GunYRot: 0f,
+    OnGround: 1b,
+    DecoyCount: 0,
+    TurretBurnTimer: 0,
+    Rotation: [
+        0f,
+        -0.12100891f
+    ],
+    SympatheticDetonated: 0b,
+    LeftWheelDamaged: 0b,
+    Fire: -1s,
+    Power: 0f,
+    TurretXRot: 0f
+}

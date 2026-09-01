@@ -1,0 +1,91 @@
+{
+    TowingUUID: "",
+    LeftWheelHealth: 50f,
+    ChargeProgress: 0f,
+    Invulnerable: 0b,
+    MainEngineHealth: 50f,
+    RightWheelDamaged: 0b,
+    LastAttacker: "",
+    SelectedWeapon: [I; 0, 0, 0, 0],
+    FallDistance: 16.321863f,
+    CanUpdate: 1b,
+    TurretYRotLock: 0f,
+    GearRot: 0f,
+    HoverMode: 1b,
+    ServerYaw: 30.124258f,
+    TowingUUIDs: [],
+    TowedByUUID: "",
+    DecoyReloadCoolDown: 0,
+    Air: 300s,
+    SubEngineDamaged: 0b,
+    TurretBurned: 0b,
+    RightWheelHealth: 50f,
+    LoiterR: 400f,
+    TurretDamaged: 0b,
+    LoiterX: 0f,
+    Inventory: {
+        Size: 27,
+        Items: [
+            {
+                Slot: 13,
+                id: "superbwarfare:creative_charging_station",
+                Count: 1b,
+                tag: {  }
+            }
+        ]
+    },
+    LoiterZ: 0f,
+    LoiterY: 318f,
+    WeaponState: {
+        Cannon: {
+            tag: {
+                GunData: {  },
+                Attachments: {  },
+                Perks: {  }
+            }
+        },
+        Rocket: {
+            tag: {
+                GunData: {
+                    Ammo: 14
+                },
+                Attachments: {  },
+                Perks: {  }
+            }
+        }
+    },
+    PropellerRot: 1533.7782f,
+    ServerPitch: 0.2690351f,
+    GunXRot: 0f,
+    LastDriver: "00000000-0000-3006-998f-555b247c4b1a",
+    IsWreck: 0b,
+    PortalCooldown: 0,
+    TurretHealth: 50f,
+    GearUp: 0b,
+    DogTagIcon: [],
+    MainEngineDamaged: 0b,
+    Locked: 0b,
+    Energy: 4997466,
+    LoiterActive: 0b,
+    TurretYRot: 0f,
+    SubEngineHealth: 50f,
+    Motion: [
+        -0.011857661591117327,
+        -0.08704836451156651,
+        0.0036583079429096735
+    ],
+    Health: 250f,
+    GunYRot: 0f,
+    OnGround: 0b,
+    DecoyCount: 8,
+    TurretBurnTimer: 0,
+    Rotation: [
+        30.124258f,
+        0.26441607f
+    ],
+    SympatheticDetonated: 0b,
+    LeftWheelDamaged: 0b,
+    Fire: -1s,
+    Power: 0.085041516f,
+    TurretXRot: 0f
+}
