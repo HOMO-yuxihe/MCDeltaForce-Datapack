@@ -12260,6 +12260,502 @@
         }
       }
     },
+    "gd656killicon": {
+      "type": "literal",
+      "children": {
+        "server": {
+          "type": "literal",
+          "children": {
+            "bonus": {
+              "type": "literal",
+              "children": {
+                "turnon": {
+                  "type": "literal",
+                  "children": {
+                    "all": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "type": {
+                      "type": "argument",
+                      "parser": "brigadier:string",
+                      "properties": {
+                        "type": "word"
+                      },
+                      "executable": true
+                    }
+                  }
+                },
+                "turnoff": {
+                  "type": "literal",
+                  "children": {
+                    "all": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "type": {
+                      "type": "argument",
+                      "parser": "brigadier:string",
+                      "properties": {
+                        "type": "word"
+                      },
+                      "executable": true
+                    }
+                  }
+                },
+                "edit": {
+                  "type": "literal",
+                  "children": {
+                    "type": {
+                      "type": "argument",
+                      "parser": "brigadier:string",
+                      "properties": {
+                        "type": "word"
+                      },
+                      "children": {
+                        "expression": {
+                          "type": "literal",
+                          "children": {
+                            "expr": {
+                              "type": "argument",
+                              "parser": "brigadier:string",
+                              "properties": {
+                                "type": "phrase"
+                              },
+                              "executable": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "reset": {
+              "type": "literal",
+              "children": {
+                "config": {
+                  "type": "literal",
+                  "executable": true
+                },
+                "bonus": {
+                  "type": "literal",
+                  "executable": true
+                }
+              }
+            },
+            "config": {
+              "type": "literal",
+              "children": {
+                "ComboWindow": {
+                  "type": "literal",
+                  "children": {
+                    "sec": {
+                      "type": "argument",
+                      "parser": "brigadier:double",
+                      "properties": {
+                        "min": 0.1
+                      },
+                      "executable": true
+                    }
+                  }
+                },
+                "ScoreMaxLimit": {
+                  "type": "literal",
+                  "children": {
+                    "val": {
+                      "type": "argument",
+                      "parser": "brigadier:integer",
+                      "properties": {
+                        "min": 0
+                      },
+                      "executable": true
+                    }
+                  }
+                },
+                "ScoreScoreboardDisplayName": {
+                  "type": "literal",
+                  "children": {
+                    "name": {
+                      "type": "argument",
+                      "parser": "brigadier:string",
+                      "properties": {
+                        "type": "phrase"
+                      },
+                      "executable": true
+                    }
+                  }
+                },
+                "KillboardDisplayName": {
+                  "type": "literal",
+                  "children": {
+                    "name": {
+                      "type": "argument",
+                      "parser": "brigadier:string",
+                      "properties": {
+                        "type": "phrase"
+                      },
+                      "executable": true
+                    }
+                  }
+                },
+                "DeathScoreboardDisplayName": {
+                  "type": "literal",
+                  "children": {
+                    "name": {
+                      "type": "argument",
+                      "parser": "brigadier:string",
+                      "properties": {
+                        "type": "phrase"
+                      },
+                      "executable": true
+                    }
+                  }
+                },
+                "AssistboardDisplayName": {
+                  "type": "literal",
+                  "children": {
+                    "name": {
+                      "type": "argument",
+                      "parser": "brigadier:string",
+                      "properties": {
+                        "type": "phrase"
+                      },
+                      "executable": true
+                    }
+                  }
+                }
+              }
+            },
+            "statistics": {
+              "type": "literal",
+              "children": {
+                "get": {
+                  "type": "literal",
+                  "children": {
+                    "score": {
+                      "type": "literal",
+                      "children": {
+                        "target": {
+                          "type": "argument",
+                          "parser": "minecraft:entity",
+                          "properties": {
+                            "amount": "single",
+                            "type": "players"
+                          },
+                          "executable": true
+                        }
+                      },
+                      "executable": true
+                    },
+                    "kill": {
+                      "type": "literal",
+                      "children": {
+                        "target": {
+                          "type": "argument",
+                          "parser": "minecraft:entity",
+                          "properties": {
+                            "amount": "single",
+                            "type": "players"
+                          },
+                          "executable": true
+                        }
+                      },
+                      "executable": true
+                    },
+                    "death": {
+                      "type": "literal",
+                      "children": {
+                        "target": {
+                          "type": "argument",
+                          "parser": "minecraft:entity",
+                          "properties": {
+                            "amount": "single",
+                            "type": "players"
+                          },
+                          "executable": true
+                        }
+                      },
+                      "executable": true
+                    },
+                    "assist": {
+                      "type": "literal",
+                      "children": {
+                        "target": {
+                          "type": "argument",
+                          "parser": "minecraft:entity",
+                          "properties": {
+                            "amount": "single",
+                            "type": "players"
+                          },
+                          "executable": true
+                        }
+                      },
+                      "executable": true
+                    }
+                  }
+                },
+                "list": {
+                  "type": "literal",
+                  "children": {
+                    "score": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "kill": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "death": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "assist": {
+                      "type": "literal",
+                      "executable": true
+                    }
+                  }
+                },
+                "add": {
+                  "type": "literal",
+                  "children": {
+                    "score": {
+                      "type": "literal",
+                      "children": {
+                        "targets": {
+                          "type": "argument",
+                          "parser": "minecraft:entity",
+                          "properties": {
+                            "amount": "multiple",
+                            "type": "players"
+                          },
+                          "children": {
+                            "amt": {
+                              "type": "argument",
+                              "parser": "brigadier:integer",
+                              "executable": true
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "kill": {
+                      "type": "literal",
+                      "children": {
+                        "targets": {
+                          "type": "argument",
+                          "parser": "minecraft:entity",
+                          "properties": {
+                            "amount": "multiple",
+                            "type": "players"
+                          },
+                          "children": {
+                            "amt": {
+                              "type": "argument",
+                              "parser": "brigadier:integer",
+                              "executable": true
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "death": {
+                      "type": "literal",
+                      "children": {
+                        "targets": {
+                          "type": "argument",
+                          "parser": "minecraft:entity",
+                          "properties": {
+                            "amount": "multiple",
+                            "type": "players"
+                          },
+                          "children": {
+                            "amt": {
+                              "type": "argument",
+                              "parser": "brigadier:integer",
+                              "executable": true
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "assist": {
+                      "type": "literal",
+                      "children": {
+                        "targets": {
+                          "type": "argument",
+                          "parser": "minecraft:entity",
+                          "properties": {
+                            "amount": "multiple",
+                            "type": "players"
+                          },
+                          "children": {
+                            "amt": {
+                              "type": "argument",
+                              "parser": "brigadier:integer",
+                              "executable": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "set": {
+                  "type": "literal",
+                  "children": {
+                    "score": {
+                      "type": "literal",
+                      "children": {
+                        "targets": {
+                          "type": "argument",
+                          "parser": "minecraft:entity",
+                          "properties": {
+                            "amount": "multiple",
+                            "type": "players"
+                          },
+                          "children": {
+                            "amt": {
+                              "type": "argument",
+                              "parser": "brigadier:integer",
+                              "executable": true
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "kill": {
+                      "type": "literal",
+                      "children": {
+                        "targets": {
+                          "type": "argument",
+                          "parser": "minecraft:entity",
+                          "properties": {
+                            "amount": "multiple",
+                            "type": "players"
+                          },
+                          "children": {
+                            "amt": {
+                              "type": "argument",
+                              "parser": "brigadier:integer",
+                              "executable": true
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "death": {
+                      "type": "literal",
+                      "children": {
+                        "targets": {
+                          "type": "argument",
+                          "parser": "minecraft:entity",
+                          "properties": {
+                            "amount": "multiple",
+                            "type": "players"
+                          },
+                          "children": {
+                            "amt": {
+                              "type": "argument",
+                              "parser": "brigadier:integer",
+                              "executable": true
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "assist": {
+                      "type": "literal",
+                      "children": {
+                        "targets": {
+                          "type": "argument",
+                          "parser": "minecraft:entity",
+                          "properties": {
+                            "amount": "multiple",
+                            "type": "players"
+                          },
+                          "children": {
+                            "amt": {
+                              "type": "argument",
+                              "parser": "brigadier:integer",
+                              "executable": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "dataset": {
+                  "type": "literal",
+                  "children": {
+                    "score": {
+                      "type": "literal",
+                      "children": {
+                        "amt": {
+                          "type": "argument",
+                          "parser": "brigadier:integer",
+                          "executable": true
+                        }
+                      }
+                    },
+                    "kill": {
+                      "type": "literal",
+                      "children": {
+                        "amt": {
+                          "type": "argument",
+                          "parser": "brigadier:integer",
+                          "executable": true
+                        }
+                      }
+                    },
+                    "death": {
+                      "type": "literal",
+                      "children": {
+                        "amt": {
+                          "type": "argument",
+                          "parser": "brigadier:integer",
+                          "executable": true
+                        }
+                      }
+                    },
+                    "assist": {
+                      "type": "literal",
+                      "children": {
+                        "amt": {
+                          "type": "argument",
+                          "parser": "brigadier:integer",
+                          "executable": true
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "debug": {
+              "type": "literal",
+              "children": {
+                "scoreboarddebug": {
+                  "type": "literal",
+                  "children": {
+                    "count": {
+                      "type": "argument",
+                      "parser": "brigadier:integer",
+                      "properties": {
+                        "min": -1
+                      },
+                      "executable": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "ponder": {
       "type": "literal",
       "children": {
