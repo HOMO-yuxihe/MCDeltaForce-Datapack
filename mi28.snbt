@@ -1,0 +1,151 @@
+{
+    TowingUUID: "",
+    LeftWheelHealth: 50f,
+    ChargeProgress: 0f,
+    Invulnerable: 0b,
+    MainEngineHealth: 50f,
+    RightWheelDamaged: 0b,
+    LastAttacker: "222f96cf-f7f6-327a-96d7-4fcd5bbae27f",
+    SelectedWeapon: [I; 0, 0],
+    FallDistance: 0f,
+    CanUpdate: 1b,
+    TurretYRotLock: 0f,
+    GearRot: 0f,
+    HoverMode: 0b,
+    ServerYaw: -125.82355f,
+    TowingUUIDs: [],
+    TowedByUUID: "",
+    DecoyReloadCoolDown: 0,
+    Air: 300s,
+    SubEngineDamaged: 0b,
+    TurretBurned: 0b,
+    RightWheelHealth: 50f,
+    LoiterR: 400f,
+    TurretDamaged: 0b,
+    LoiterX: 0f,
+    Inventory: {
+        Size: 27,
+        Items: [
+            {
+                Slot: 0,
+                id: "superbwarfare:small_shell_he",
+                Count: 64b
+            },
+            {
+                Slot: 1,
+                id: "superbwarfare:small_shell_he",
+                Count: 64b
+            },
+            {
+                Slot: 2,
+                id: "superbwarfare:small_shell_he",
+                Count: 64b
+            },
+            {
+                Slot: 3,
+                id: "superbwarfare:small_rocket",
+                Count: 64b
+            },
+            {
+                Slot: 4,
+                id: "superbwarfare:small_rocket",
+                Count: 64b
+            },
+            {
+                Slot: 5,
+                id: "superbwarfare:flying_flare_ammo",
+                Count: 64b
+            }
+        ]
+    },
+    LoiterZ: 0f,
+    LoiterY: 318f,
+    WeaponState: {
+        DriverAAMissile: {
+            tag: {
+                Perks: {  },
+                GunData: {
+                    Ammo: 4
+                },
+                Attachments: {  }
+            }
+        },
+        DriverMissile: {
+            tag: {
+                Perks: {  },
+                GunData: {
+                    Ammo: 4
+                },
+                Attachments: {  }
+            }
+        },
+        "@Missile": {
+            tag: {
+                Perks: {  },
+                GunData: {  },
+                Attachments: {  }
+            }
+        },
+        PassengerMissile: {
+            tag: {
+                Perks: {  },
+                GunData: {
+                    Ammo: 8
+                },
+                Attachments: {  }
+            }
+        },
+        SeekMissile: {
+            tag: {
+                Perks: {  },
+                GunData: {
+                    Ammo: 2
+                },
+                Attachments: {  }
+            }
+        },
+        Rocket: {
+            tag: {
+                Perks: {  },
+                GunData: {
+                    Ammo: 42
+                },
+                Attachments: {  }
+            }
+        }
+    },
+    PropellerRot: 94.24806f,
+    ServerPitch: 0.08453716f,
+    GunXRot: 0f,
+    LastDriver: "undefined",
+    IsWreck: 0b,
+    PortalCooldown: 0,
+    TurretHealth: 50f,
+    GearUp: 0b,
+    DogTagIcon: [],
+    MainEngineDamaged: 0b,
+    Locked: 0b,
+    Energy: 4991871,
+    LoiterActive: 0b,
+    TurretYRot: 0f,
+    SubEngineHealth: 50f,
+    Motion: [
+        "7.375999907102215E-47d",
+        "0.0",
+        "7.863366626862187E-47d"
+    ],
+    Health: 350f,
+    GunYRot: 0f,
+    OnGround: 1b,
+    DecoyCount: 8,
+    TurretBurnTimer: 0,
+    Rotation: [
+        -125.82355f,
+        0.08453716f
+    ],
+    SympatheticDetonated: 0b,
+    LeftWheelDamaged: 0b,
+    Fire: -1s,
+    Power: 0f,
+    TurretXRot: 0f
+}
