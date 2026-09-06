@@ -1,4 +1,5 @@
 tag @s remove deployed
+tag @s add undeployed
 
 scoreboard players set @s death 0
 
