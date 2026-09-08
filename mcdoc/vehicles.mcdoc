@@ -97,9 +97,19 @@ struct Ztz99aNbt {
     },
 }
 
+struct M1A2Nbt {
+    ...CommonVehicleNbt,
+    WeaponState?: struct {
+        Cannon?: GunSlot,
+        MachineGun?: GunSlot,
+        PassengerMachineGun?: GunSlot,
+    },
+}
+
 /// ============================
 /// 绑定到实体
 /// ============================
 
 dispatch minecraft:entity[superbwarfare:ah_6] to Ah6Nbt
 dispatch minecraft:entity[superbwarfare:ztz_99a] to Ztz99aNbt
+dispatch minecraft:entity[superbwarfare:m_1a_2] to M1A2Nbt

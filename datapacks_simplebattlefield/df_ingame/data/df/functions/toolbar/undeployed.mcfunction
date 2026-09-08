@@ -1,2 +1,3 @@
 item replace entity @s hotbar.7 with minecraft:carrot_on_a_stick{display:{Name:'{"text":"放弃战斗","italic":false}'},CustomModelData:2}
-item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{display:{Name:'{"text":"一键部署","italic":false}'},CustomModelData:1}
+item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{display:{Name:'{"text":"部署米-28","italic":false}'},CustomModelData:21}
+item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{display:{Name:'{"text":"部署M1A2","italic":false}'},CustomModelData:22}
