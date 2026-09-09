@@ -106,6 +106,14 @@ struct M1A2Nbt {
     },
 }
 
+struct AANbt {
+    ...CommonVehicleNbt,
+    WeaponState?: struct{
+        FimMissile?: GunSlot,
+        Cannon?: GunSlot
+    }
+}
+
 /// ============================
 /// 绑定到实体
 /// ============================
@@ -113,3 +121,4 @@ struct M1A2Nbt {
 dispatch minecraft:entity[superbwarfare:ah_6] to Ah6Nbt
 dispatch minecraft:entity[superbwarfare:ztz_99a] to Ztz99aNbt
 dispatch minecraft:entity[superbwarfare:m_1a_2] to M1A2Nbt
+dispatch minecraft:entity[superbwarfare:lav_ad] to AANbt

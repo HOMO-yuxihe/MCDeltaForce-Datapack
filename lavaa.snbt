@@ -1,0 +1,90 @@
+{
+    TowingUUID: "",
+    LeftWheelHealth: 50f,
+    ChargeProgress: 0f,
+    Invulnerable: 0b,
+    MainEngineHealth: 50f,
+    RightWheelDamaged: 0b,
+    LastAttacker: "222f96cf-f7f6-327a-96d7-4fcd5bbae27f",
+    SelectedWeapon: [I; 1, 0, 0, 0, 0],
+    FallDistance: 0f,
+    CanUpdate: 1b,
+    TurretYRotLock: 0f,
+    GearRot: 0f,
+    HoverMode: 0b,
+    ServerYaw: -90f,
+    TowingUUIDs: [],
+    TowedByUUID: "",
+    DecoyReloadCoolDown: 0,
+    Air: 300s,
+    SubEngineDamaged: 0b,
+    TurretBurned: 0b,
+    RightWheelHealth: 50f,
+    LoiterR: 400f,
+    TurretDamaged: 0b,
+    LoiterX: 0f,
+    Inventory: {
+        Size: 54,
+        Items: [
+            {
+                Slot: 0,
+                id: "superbwarfare:creative_ammo_box",
+                Count: 1b
+            }
+        ]
+    },
+    LoiterZ: 0f,
+    LoiterY: 318f,
+    WeaponState: {
+        FimMissile: {
+            tag: {
+                Perks: {  },
+                GunData: {
+                    Ammo: 8
+                },
+                Attachments: {  }
+            }
+        },
+        Cannon: {
+            tag: {
+                Perks: {  },
+                GunData: {  },
+                Attachments: {  }
+            }
+        }
+    },
+    PropellerRot: 0f,
+    ServerPitch: "9.77878E-5f",
+    GunXRot: 0f,
+    LastDriver: "222f96cf-f7f6-327a-96d7-4fcd5bbae27f",
+    IsWreck: 0b,
+    PortalCooldown: 0,
+    TurretHealth: 50f,
+    GearUp: 0b,
+    DogTagIcon: [],
+    MainEngineDamaged: 0b,
+    Locked: 0b,
+    Energy: 9994156,
+    LoiterActive: 0b,
+    TurretYRot: -1.1806535f,
+    SubEngineHealth: 50f,
+    Motion: [
+        1.8776636549540147E-9d,
+        0.0,
+        2.2994748834379426E-25d
+    ],
+    Health: 300f,
+    GunYRot: 0f,
+    OnGround: 1b,
+    DecoyCount: 1,
+    TurretBurnTimer: 0,
+    Rotation: [
+        -90f,
+        8.800902E-5f
+    ],
+    SympatheticDetonated: 0b,
+    LeftWheelDamaged: 0b,
+    Fire: 0s,
+    Power: 0f,
+    TurretXRot: 8f
+}
