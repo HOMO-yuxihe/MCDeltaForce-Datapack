@@ -1,0 +1,36 @@
+{
+    "values":[
+        "superbwarfare:projectile",
+
+        "superbwarfare:cannon_shell",
+        "superbwarfare:small_cannon_shell",
+        
+        "superbwarfare:small_rocket",
+        "superbwarfare:medium_rocket",
+        
+        "superbwarfare:grapeshot",
+        "superbwarfare:gun_grenade",
+        "superbwarfare:flare_decoy",
+
+        "superbwarfare:melon_bomb",
+        "superbwarfare:mk_82",
+        "superbwarfare:mk_84",
+        "superbwarfare:mortar_shell",
+        "superbwarfare:rpg_rocket_standard",
+        "superbwarfare:rpg_rocket_tbg",
+        "superbwarfare:sc_250",
+        "superbwarfare:sc_50",
+        "superbwarfare:super_star_projectile",
+        "superbwarfare:swarm_drone",
+        "superbwarfare:taser_bullet",
+
+        "superbwarfare:fim_92_missile",
+        "superbwarfare:javelin_missile",
+        "superbwarfare:kh_39",
+        "superbwarfare:ru_3m14_missile",
+        "superbwarfare:ru_9m100_missile",
+        "superbwarfare:ru_9m336_missile",
+        "superbwarfare:wire_guide_missile",
+        "superbwarfare:white_phosphorus_projectile"
+    ]
+}
