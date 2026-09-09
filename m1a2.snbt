@@ -1,0 +1,94 @@
+{
+    TowingUUID: "",
+    LeftWheelHealth: 100f,
+    ChargeProgress: 0f,
+    Invulnerable: 0b,
+    MainEngineHealth: 150f,
+    RightWheelDamaged: 0b,
+    LastAttacker: "",
+    SelectedWeapon: [I; 0, 0, 0, 0, 0],
+    FallDistance: 0f,
+    CanUpdate: 1b,
+    TurretYRotLock: 0f,
+    GearRot: 0f,
+    HoverMode: 0b,
+    ServerYaw: 0f,
+    TowingUUIDs: [],
+    TowedByUUID: "",
+    DecoyReloadCoolDown: 0,
+    Air: 300s,
+    SubEngineDamaged: 0b,
+    TurretBurned: 0b,
+    RightWheelHealth: 100f,
+    LoiterR: 400f,
+    TurretDamaged: 0b,
+    LoiterX: 0f,
+    Inventory: {
+        Size: 54,
+        Items: [
+            {
+                Slot: 11,
+                id: "superbwarfare:creative_charging_station",
+                Count: 1b
+            }
+        ]
+    },
+    LoiterZ: 0f,
+    LoiterY: 318f,
+    WeaponState: {
+        Cannon: {
+            tag: {
+                GunData: {
+                    Ammo: 1
+                },
+                Attachments: {  },
+                Perks: {  }
+            }
+        },
+        MachineGun: {
+            tag: {
+                GunData: {  },
+                Attachments: {  },
+                Perks: {  }
+            }
+        },
+        PassengerMachineGun: {
+            tag: {
+                GunData: {  },
+                Attachments: {  },
+                Perks: {  }
+            }
+        }
+    },
+    PropellerRot: 0f,
+    ServerPitch: 0f,
+    GunXRot: 0f,
+    LastDriver: "00000000-0000-3006-998f-555b247c4b1a",
+    IsWreck: 0b,
+    PortalCooldown: 0,
+    TurretHealth: 100f,
+    GearUp: 0b,
+    DogTagIcon: [],
+    MainEngineDamaged: 0b,
+    Locked: 0b,
+    Energy: 10000000,
+    LoiterActive: 0b,
+    TurretYRot: -0.5279592f,
+    SubEngineHealth: 150f,
+    Motion: [
+        0.0,
+        0.0,
+        0.0
+    ],
+    Health: 500f,
+    GunYRot: -0.5279592f,
+    OnGround: 1b,
+    DecoyCount: 1,
+    TurretBurnTimer: 0,
+    Rotation: [0f, 0f],
+    SympatheticDetonated: 0b,
+    LeftWheelDamaged: 0b,
+    Fire: 0s,
+    Power: 0f,
+    TurretXRot: 5.1815763f
+}
