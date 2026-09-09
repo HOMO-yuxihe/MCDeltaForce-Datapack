@@ -8,6 +8,5 @@ tag @s remove hvk
 tag @s remove deployed
 tag @s remove undeployed
 
-kill @e[type=item,nbt={Item:{id:"minecraft:arrow"}}]
 kill
 scoreboard players set @s death 0
