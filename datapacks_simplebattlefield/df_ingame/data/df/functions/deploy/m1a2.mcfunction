@@ -4,4 +4,4 @@ tag @s remove undeployed
 tag @s add deployed
 clear @s
 
-item replace entity @s hotbar.5 with superbwarfare:repair_tool{Energy:100000}
+function df:deploy/set_inventory
