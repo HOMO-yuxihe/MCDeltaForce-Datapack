@@ -114,6 +114,15 @@ struct AANbt {
     }
 }
 
+struct Lav25Nbt {
+    ...CommonVehicleNbt,
+    WeaponState?: struct{
+        Missile?: GunSlot,
+        Cannon?: GunSlot,
+        MachineGun?: GunSlot
+    }
+}
+
 /// ============================
 /// 绑定到实体
 /// ============================
