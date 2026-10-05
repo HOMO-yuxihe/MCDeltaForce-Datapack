@@ -4,6 +4,10 @@
       "commands": {
         "path": "./commands.json",
         "replace": false
+      },
+      "registries": {
+        "path": "./reg/sbw.json",
+        "replace": false
       }
     },
     "gameVersion": "1.20.1"
