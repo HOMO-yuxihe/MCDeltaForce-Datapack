@@ -11,6 +11,9 @@ scoreboard objectives modify display displayname {"text": "阵营分数","color"
 # scoreboard objectives add join_hvk minecraft.dropped:minecraft.redstone
 # scoreboard objectives add quit minecraft.dropped:minecraft.arrow
 
+scoreboard objectives add countdown dummy
+scoreboard players set @e[tag=supply] countdown 0
+
 execute as @a run function df:reset_player
 
 scoreboard players set G.T.I.阵营分数 display 0

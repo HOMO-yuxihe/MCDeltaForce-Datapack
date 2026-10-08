@@ -9,3 +9,5 @@ execute as @e[nbt={IsWreck:1b}] run function df:wreck_tick
 kill @e[type=superbwarfare:turret_wreck]
 
 execute as @e[type=#df:bullet] unless entity @s[x=-256,y=-64,z=-256,dx=512,dz=512,dy=1024] run kill
+
+execute as @e[tag=supply] at @s run function df:supply_entity
